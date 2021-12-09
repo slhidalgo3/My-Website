@@ -1,0 +1,65 @@
+---
+title: "Resume"
+description: "This document describes the education and work experience!"
+output:
+  html_document: default
+  pdf_document: default
+spacing: single
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{=tex}
+\begin{center}Sabrina Hidalgo\end{center}
+\begin{center}73176 Pruden Rd, Covington, LA 70435\end{center}  \begin{center}SLHOLLOWAY01@YAHOO.COM\end{center}  \begin{center}662-322-9150\end{center}
+```
+### EDUCATION
+
+University of Mississippi \hfill Oxford, MS
+
+*Bachelor of Science in Accounting with a minor in General Finance* \hfill August 2014-May 2016
+
+-   Phi Theta Kappa Scholarship (PTK): International Honor Society Recognition
+-   Academic Excellence Scholarship: Recognition for GPA 3.5 and above
+-   Participated in PWC and KPMG case competition: Each team is to come up with a solution to a given scenario. Then, it is presented to the judges of the firm.
+
+Itawamba Community College \hfill Fulton, MS
+
+*Associates of Arts Degree* \hfill August 2012-May 2014\
+
+-   Phi Theta Kappa (PTK) Member
+-   President's List: 3.7 and above GPA
+-   Academic All-State in sport of Woman's Tennis: Awarded to one athlete in the state of Mississippi per year for exceptional ability in maintaining high grades while participating on a collegiate tennis team.
+
+### EXPERIENCE
+
+Sales Tax and More, Inc \hfill Rockwall, TX
+
+*Staff Accountant/Auditor Specialist* \hfill June 2021-Current
+
+-   Process Sales Tax Voluntary Disclosure Agreements for all 50 states
+-   Help clients through state audits
+-   Process and pull the correct data for state auditors to help with audits
+-   Advocate for our clients through the audits
+
+Meraki Solar LLC \hfill Pensacola, FL
+
+*Accounts Payable Specialist* \hfill January 2020- June 2021
+
+-   Process Sales Rep Commissions weekly
+-   Reconcile funding on each project
+-   Reconcile Credit Card statements/Bank Statements
+-   Gather correct information/approvals for contractor payments
+-   Make daily payments to approved invoices
+
+Mississippi Department of Revenue \hfill Tupelo, MS
+
+*Auditor/Accountant* \hfill December 2017- July 2019
+
+-   Collect and review Taxpayers Records
+-   Compile data received
+-   Make Adjustments and receive payment \*Educate taxpayers on state tax laws and how to file state sales tax
+
+Vreasy Rental Properties \hfill Barcelona, Spain Accounting Intern \hfill May 2016-July 2016
