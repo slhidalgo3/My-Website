@@ -1,0 +1,23 @@
+name: "Sabrina Hidalgo"
+title: "My Website"
+description: |
+ My first website :)
+output_dir: "docs"
+
+navbar:
+  right:
+    - text: "Home"
+      href: index2.html
+    - text: "Resume"
+      href: Resume.html
+    - text: "Projects"
+      href: Projects.html
+      menu:
+        - text: "Rsquared"
+          href: rsquared.html
+        - text: "Data Manipulation"
+          href: DataManipulationclass.html 
+        - text: "Final Project"
+          href: FinalProject.html   
+      
+output: distill::distill_article
