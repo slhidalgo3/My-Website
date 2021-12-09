@@ -1,14 +1,24 @@
 ---
-title: "Joshua O.S. Hunt"
+title: "Sabrina Hidalgo"
+image: "Sabrina_Hidalgo.jpg"
+color1: "#5A59A3"
+color2: "#C66060"
+angle: 130
+links:
+  - label: LinkedIn
+    url: "www.linkedin.com/in/sabrina-hidalgo-14983610a"
+  - label: Github
+    url: "https://github.com/slhidalgo3"
+  - label: Email
+    url: "mailto:slholloway01@yahoo.com"
+site: distill::distill_website 
 output:
-  postcards::trestles
-site: distill::distill_website
+  postcards::onofre
 ---
-
-
+ 
 # About
 
-I am orginally from Mantachie, MS and currently living in Covington, LA. I am a sales tax auditor for Sales Tax and More and work with all 50 states with reconciling companies sales tax data to become compliant with each state. I am a previous Mississippi State auditor for the Department of Revenue. I guess you can say I have found my niche.
+I am orginally from Mantachie, MS and currently living in Covington, LA. I am a sales tax auditor for Sales Tax and More and work with all 50 states with reconciling companies sales tax data to become compliant with each state. I am a previous Mississippi State auditor for the Department of Revenue. I guess you can say I have found my niche. 
 
 I have two kids, work full time, and am currently a full time student in the Master's Accountacy program at MS State University.
 
@@ -25,11 +35,5 @@ I have two main goals to get to in my accounting career.
 or
 
 2) Get my software engineer certificate and help the accounting process. (This is a long shot!)
-
-
-
-
-
-
 
 
