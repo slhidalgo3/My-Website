@@ -2,8 +2,7 @@
 title: "Final Project"
 author: "Sabrina Hidalgo"
 date: "12/9/2021"
-output: html_document
-        rdistill::distill_article
+output: distill::distill_article
 ---
 
 ```{r setup, include=FALSE}
@@ -21,8 +20,6 @@ library(DBI)
 db = dbConnect(RSQLite::SQLite(), dbname = "C:/Users/customer/OneDrive/Desktop/ACC 8143/My Website/DataScientistJobMarketUS.csv")
                
 ```
-
-
 
 
 
