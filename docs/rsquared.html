@@ -2071,7 +2071,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <a href="index.html" class="title">My Website</a>
 </div>
 <div class="nav-right">
-<a href="index.html">Home</a>
+<a href="index2.html">Home</a>
 <a href="Resume.html">Resume</a>
 <div class="nav-dropdown">
 <button class="nav-dropbtn">
@@ -2081,6 +2081,8 @@ Projects
 </button>
 <div class="nav-dropdown-content">
 <a href="rsquared.html">Rsquared</a>
+<a href="DataManipulationclass.html">Data Manipulation</a>
+<a href="FinalProject.html">Final Project</a>
 </div>
 </div>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
@@ -2100,6 +2102,7 @@ Projects
 
 
 <div class="d-article">
+<p>Rsquared is interesting in the fact that it does nothing about prediction error. Each time you can get a different number anywhere between 0 and 1. We demonstrated this in class when one student asked why her numbers didn’t match yours. And mine didn’t match either one either. Thats the most interesting thing about Rsquared. In most cases, it will not give the same number twice which can be a problem with Rsquared.</p>
 <p><a href="https://en.wikipedia.org/wiki/Coefficient_of_determination">R-squared</a> is a statistic that often accompanies regression output. It ranges in value from 0 to 1 and is usually interpreted as summarizing the percent of variation in the response that the regression model explains. So an R-squared of 0.65 might mean that the model explains about 65% of the variation in our dependent variable. Given this logic, we prefer our regression models have a high R-squared.</p>
 <p>In R, we typically get R-squared by calling the summary function on a model object. Here’s a quick example using simulated data:</p>
 <div class="layout-chunk" data-layout="l-body">
@@ -2293,6 +2296,7 @@ R^{2} =  \frac{\sum (\hat{y} – \bar{\hat{y}})^{2}}{\sum (y – \bar{y})^{2}}
 <li><p>R-squared does not necessarily increase when assumptions are better satisfied.</p></li>
 <li><p>R-squared does not measure how one variable explains another.</p></li>
 </ul>
+<p>To better measure the predictive error Mean Square Error (MSE) as a measure is better suited. As was shown, it did not change and thus creating a more reliable predictive measure.</p>
 <div class="sourceCode" id="cb13"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
