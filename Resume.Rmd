@@ -1,9 +1,7 @@
 ---
 title: "Resume"
 description: "This document describes the education and work experience!"
-output:
-  html_document: default
-  pdf_document: default
+output: distill::distill_article
 spacing: single
 ---
 
