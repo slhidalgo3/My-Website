@@ -2,7 +2,6 @@
 title: "In Class Work"
 author: "Sabrina Hidalgo"
 date: "9/27/2021"
-output: html_document
 output: distill::distill_article
 ---
 
@@ -14,7 +13,7 @@ knitr::opts_chunk$set(echo = FALSE)
 library(tidyverse)
 
 library(DBI)
-db = dbConnect(RSQLite::SQLite(), dbname = "C:/Users/customer/Desktop/ACC 8143/Data Manipulation/data/03-Data-file-classroom-exercise-Chinook_Sqlite.sqlite")
+db = dbConnect(RSQLite::SQLite(), dbname = "03-Data-file-classroom-exercise-Chinook_Sqlite.sqlite")
                
 ```
 

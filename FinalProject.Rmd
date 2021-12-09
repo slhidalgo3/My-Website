@@ -16,9 +16,7 @@ library(tidyverse)
 ```{r, warning=FALSE,message=FALSE}
 library(tidyverse)
 
-library(DBI)
-db = dbConnect(RSQLite::SQLite(), dbname = "C:/Users/customer/OneDrive/Desktop/ACC 8143/My Website/DataScientistJobMarketUS.csv")
-               
+load("FinalData.rda")
 ```
 
 
