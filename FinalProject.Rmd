@@ -16,10 +16,27 @@ library(tidyverse)
 ```{r, warning=FALSE,message=FALSE}
 library(tidyverse)
 
-load("FinalData.rda")
+load("FinalData.RData")
 ```
 
+#I found this data on Kaggle which list the different sectors of Data Scientist (Job Title) in each state with an income level.
 
+#I was wanting to try to predict the Sector of Accounting for Data Scientist in each State. 
+
+
+#I do not know how to pull the data. 
+
+library(caret)
+set.seed(1)
+trainIndex <- createDataPartition(DataScientist$Sector, p = .7, list = FALSE, times = 1)
+DataScientistTrain <- DataScientist[ trainIndex,]
+DataScientistValid <- DataScientist[-trainIndex,]
+
+
+ggplot(data=DataScientistTrain)+geom_point(mapping = aes(x=Location,y=Job Title,color=Sector),alpha=0.5) + labs(color = "Sector")+
+geom_point(data=DataScientistValid, ,mapping = aes(x=Location,y=Job Title,shape=Sector)) + labs(shape = "Testing Sector") +
+  ggtitle("The data")+
+  theme(plot.title = element_text(hjust=0.5, size=10, face='bold'))
 
 
 
