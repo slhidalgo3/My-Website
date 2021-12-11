@@ -2116,10 +2116,15 @@ Projects
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://tidyverse.tidyverse.org'>tidyverse</a></span><span class='op'>)</span>
 
-<span class='fu'><a href='https://rdrr.io/r/base/load.html'>load</a></span><span class='op'>(</span><span class='st'>"FinalData.rda"</span><span class='op'>)</span>
+<span class='fu'><a href='https://rdrr.io/r/base/load.html'>load</a></span><span class='op'>(</span><span class='st'>"FinalData.RData"</span><span class='op'>)</span>
 </code></pre>
 </div>
 </div>
+<p>#I found this data on Kaggle which list the different sectors of Data Scientist (Job Title) in each state with an income level.</p>
+<p>#I was wanting to try to predict the Sector of Accounting for Data Scientist in each State.</p>
+<p>#I do not know how to pull the data.</p>
+<p>library(caret) set.seed(1) trainIndex &lt;- createDataPartition(DataScientist$Sector, p = .7, list = FALSE, times = 1) DataScientistTrain &lt;- DataScientist[ trainIndex,] DataScientistValid &lt;- DataScientist[-trainIndex,]</p>
+<p>ggplot(data=DataScientistTrain)+geom_point(mapping = aes(x=Location,y=Job Title,color=Sector),alpha=0.5) + labs(color = “Sector”)+ geom_point(data=DataScientistValid, ,mapping = aes(x=Location,y=Job Title,shape=Sector)) + labs(shape = “Testing Sector”) + ggtitle(“The data”)+ theme(plot.title = element_text(hjust=0.5, size=10, face=‘bold’))</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
